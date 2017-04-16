@@ -50,3 +50,6 @@ jspm_packages
 
 # IntelliJ Idea .idea folder
 .idea
+
+# Rollup generated bundle
+static/bundle.js
