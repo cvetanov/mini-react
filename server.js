@@ -1,13 +1,19 @@
-import express from 'express';
-import path from 'path';
-import { rollup } from 'rollup';
+var express = require('express');
+var path = require('path');
+var rollup = require('rollup').rollup;
+var babel = require('rollup-plugin-babel');
 
 // generate bundle from main script and save it in 'static/bundle.js'
 rollup({
-  entry: 'src/main.js'
+  entry: 'src/main.js',
+  plugins: [
+    babel({
+      exclude: 'node_modules/**'
+    })
+  ]
 }).then(bundle => {
   bundle.write({
-    format: 'cjs',
+    format: 'es',
     dest: 'static/bundle.js'
   });
 });

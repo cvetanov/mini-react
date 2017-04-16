@@ -1,1 +1,5 @@
-document.getElementById('first').innerHTML = 'Hello world!';
+import { Demo } from './components/Demo.jsx';
+
+const content = Demo.render();
+
+document.getElementById('first').appendChild(content);
