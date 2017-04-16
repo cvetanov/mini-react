@@ -1,0 +1,27 @@
+{
+  "name": "mini-react",
+  "version": "1.0.0",
+  "description": "Minimalistic version of the React library (primarily used as a playground for learning how React and Babel work)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvetanov/mini-react.git"
+  },
+  "keywords": [
+    "react",
+    "babel",
+    "jsx",
+    "renderer",
+    "minimalistic",
+    "playground"
+  ],
+  "author": "cvetanovgoce@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cvetanov/mini-react/issues"
+  },
+  "homepage": "https://github.com/cvetanov/mini-react#readme"
+}
