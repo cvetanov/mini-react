@@ -2,7 +2,7 @@
   "presets": [["env", { "modules": false }], ["es2015", { "modules": false} ]],
   "plugins": [[
     "transform-react-jsx", {
-      "pragma": "renderer"
+      "pragma": "h"
     }
   ]]
 }

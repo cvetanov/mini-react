@@ -1,5 +1,6 @@
-import { Demo } from './components/Demo.jsx';
+import { render } from './renderer';
+import { WrappedDemoComponent } from './components/WrappedDemo.jsx';
 
-const content = Demo.render();
+const content = render(WrappedDemoComponent.render());
 
 document.getElementById('first').appendChild(content);

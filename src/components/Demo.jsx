@@ -1,13 +1,11 @@
-import { renderer } from '../renderer';
+import { h } from '../renderer';
 
 class DemoComponent {
-  render() {
-    return <div>Hi</div>;
+  static render() {
+    return <div>Hi from Demo Component</div>;
   }
 }
 
-const Demo = new DemoComponent();
-
 export {
-  Demo
+  DemoComponent
 };
